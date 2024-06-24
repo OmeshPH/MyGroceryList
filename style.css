@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(18, 29, 16);
+}
+
+/* Pantry-Item Section Styling */
+.Pantry-Items {
+    display: inline-flex;
+  
+    justify-content: center ;
+    border: 5px;
+}
+/* Freezer-Item Section Styling */
+.Freezer-Items {
+    display: inline-flex;
+    
+    justify-content: center;
+}
+/* Main Header */
+h1{
+    color: white;
+    text-transform: full-width;
+    padding: 10px;
+    background: linear-gradient(-40deg,rgb(122, 122, 122, 0) 50%, rgb(0, 0, 128) 80%);
+    border-radius: 20px;
+    border: rebeccapurple solid 5px;
+    padding: 30px;
+}
+/* Item Header */
+h2 {
+    font-style: italic;
+    color: white;
+    text-transform: uppercase;
+    background: linear-gradient(-40deg,rgb(122, 122, 122,0), rgb(0, 0, 128) 80%);
+    padding: 30px;
+    width: 35%;
+    border-radius: 20px;
+    border: rebeccapurple solid 5px;
+}
+/* Sub Category Headers */
+h3{
+    color: rgb(181, 222, 222);
+    text-transform: uppercase;
+    text-decoration-thickness: 3px;
+}
+/* Div Box Styling */
+.Canned, .Dry-Goods, .Veggies, .Snacks {
+    background: linear-gradient(-40deg, rgb(122,122,122,0) 50%, rgb(0, 0, 128) 80%);
+    margin: 20px;
+    padding: 30px;
+    border: rebeccapurple solid 5px;
+    border-radius: 20px;
+    border-radius: 10%;
+    
+    
+}
+/* List Item Styling */
+li {
+    color: rgb(255, 255, 255);
+}
